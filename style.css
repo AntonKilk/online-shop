@@ -37,7 +37,7 @@ body {
 
 .header-text {
 	position: absolute;
-	right: 331px;
+	right: 31px;
 	top: 290px;
 	text-transform: capitalize;
 	display: flex;
@@ -61,7 +61,7 @@ body {
 
 .container {
 	width: 1140px;
-	height: 2960px;
+	/* height: 2960px; */
 	display: flex;
 	margin: 0 auto;
 	text-align: center;
@@ -93,12 +93,13 @@ body {
 	text-align: center;
 }
 
-.deal h1{
+.deal a{
 	color: red;
 	font-weight: 400;
 	font-size: 24px;
 	line-height: 29px;
 	text-align: center;
+	list-style-type: none;
 }
 
 .deal:nth-of-type(1) {
@@ -136,10 +137,6 @@ body {
 	text-align: center;
 }
 
-.featured-items {
-	padding-top: 96px;
-}
-
 .featured-items h1{
 	padding-top: 96px;
 	font-weight: 400;
@@ -156,17 +153,46 @@ body {
 
 .footer {
 	background-color: #222224;
+	color:wheat;
+	height: 96px;
+	text-align: right;
+	font-family: 'Courier New', Courier, monospace;
+	margin-top: 70px;
 }
 
-.footer-top {
-	height: 341px;
-	background-color: #222224;
+.footer p {
+	padding-right: 30px;
 }
-.footer-mid {
-	height: 448px;
-	background-color: rgba(244, 244, 244, 0.7);
+
+.products-list {
+	align-content: center;
 }
-.footer-bottom {
-	height: 79px;
-	background-color: #222224;
+
+.products {
+	float: left;
+	width: 300px;
+	height: 150px;
+	margin: 10px;
+	border: 3px solid #73AD21;
+	margin-top: 60px;
+}
+
+.products img {
+	max-height: 130px;
+}
+
+.products h2 {
+	color: red;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center
+}
+
+.products p{
+	color: #211616;
+	font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center
 }
