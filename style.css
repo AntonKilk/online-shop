@@ -1,0 +1,172 @@
+* {
+	margin: 0;
+	padding: 0;
+	outline: none;
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+}
+
+.menu {
+	/* padding-top: 10px; */
+	height: 75px;
+	background-color: #222222;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-left: 231px;
+	padding-right: 231px;
+}
+
+.menu-sub a{
+	padding: 15px;
+}
+
+.header {
+	height: 764px;
+	background-color: #F1E4E6;
+	background-image: url(img/muwik.png);
+	background-position: center left;
+	background-repeat: no-repeat;
+}
+
+#red{
+	color: red;
+}
+
+.header-text {
+	position: absolute;
+	right: 331px;
+	top: 290px;
+	text-transform: capitalize;
+	display: flex;
+}
+
+.header-text div{
+	padding: 8px;
+}
+
+.header-text h1{
+	font-weight: 900;
+	font-size: 48px;
+	line-height: 58px;
+}
+
+.header-text h2{
+	font-weight: 900;
+	font-size: 32px;
+	line-height: 39px;
+}
+
+.container {
+	width: 1140px;
+	height: 2960px;
+	display: flex;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.top-container {
+	padding-top: 65px;
+	width: 1140px;
+	display: flex;
+	justify-content: space-between;
+	text-transform: capitalize;
+}
+
+.bottom-container {
+	background-image: url(img/bottom.png);
+}
+
+.deal {
+	width: 360px;
+	height: 260px;
+}
+
+.deal h2{
+	padding-top: 105px;
+	color: white;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+	text-align: center;
+}
+
+.deal h1{
+	color: red;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 29px;
+	text-align: center;
+}
+
+.deal:nth-of-type(1) {
+	background-image: url(img/women.png);
+}
+
+.deal:nth-of-type(2) {
+	background-image: url(img/men.png);
+}
+
+.deal:nth-of-type(3) {
+	background-image: url(img/kids.png);
+}
+
+.bottom-container {
+	height: 180px;
+	background-color: #211616;
+	margin-top: 30px;
+}
+
+.bottom-container h2{
+	padding-top: 65px;
+	color: white;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+	text-align: center;
+}
+
+.bottom-container h1{
+	color: red;;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 29px;
+	text-align: center;
+}
+
+.featured-items {
+	padding-top: 96px;
+}
+
+.featured-items h1{
+	padding-top: 96px;
+	font-weight: 400;
+	font-size: 30px;
+	line-height: 36px;
+}
+
+.featured-items p{
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 17px;
+	color: #9F9F9F;
+}
+
+.footer {
+	background-color: #222224;
+}
+
+.footer-top {
+	height: 341px;
+	background-color: #222224;
+}
+.footer-mid {
+	height: 448px;
+	background-color: rgba(244, 244, 244, 0.7);
+}
+.footer-bottom {
+	height: 79px;
+	background-color: #222224;
+}
