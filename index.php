@@ -1,12 +1,5 @@
 <?php
-	$root = $_SERVER['DOCUMENT_ROOT']."/rush00";
-	$servername = "localhost";
-	$username = "root";
-	$password = "1233anton";
-	$dbname = "rush_db";
-	$connection = mysqli_connect($servername, $username, $password, $dbname);
-	if (!$connection)
-		die("Connection failed: " . mysqli_connect_error());	$category = mysqli_query($connection, "SELECT * FROM category");
+	include 'connect_db.php';
 	//check video settings if this doesn't work
 	$category = mysqli_query($connection, "SELECT * FROM category");
 	$products = mysqli_query($connection, "SELECT * FROM products");
@@ -31,7 +24,7 @@
 					30% OFF
 				</h2>
 					<h1>
-					<a href="getcategory.php?category=women"><li>
+					<a href="list_categories.php"><li>
 					<?php
 						$cat=mysqli_fetch_assoc($category);
 						print_r($cat['title']);
